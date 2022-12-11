@@ -1,0 +1,52 @@
+/* add a background image to the page */
+body {
+    background-image: url("https://www.your-snowplow-company.com/images/snowy-street.jpg");
+    background-size: cover;
+  }
+  
+  /* add a white box to contain the form */
+  .form-container {
+    background-color: #fff;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #333;
+  }
+  
+  /* center the form heading */
+  .form-heading {
+    text-align: center;
+  }
+  
+  /* style the form label and input fields */
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* style the form submit button */
+  .form-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .form-button:hover {
+    cursor: pointer;
+    background-color: #555;
+  }
+  
